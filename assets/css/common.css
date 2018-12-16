@@ -1,0 +1,104 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,table,tbody,thead,tr,th,td,p,h1,h2,h3,h4,h5,h6,form,img,button,select,option,textarea {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+}
+button:active, button:hover, bottom:focus {
+  outline: none;
+}
+html, body {
+  height: 100%;
+}
+img {
+  border: none;
+  vertical-align: middle;
+  pointer-events: none; 
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select:none;  
+  -o-user-select:none;  
+  user-select:none;
+}
+address,code,th {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,ol {
+  list-style: none;
+}
+body {
+  font: .24rem "微软雅黑", HELVETICA;
+  background: #f6f7fb;
+}
+a {
+  color: #999;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited {
+  color: #999;
+}
+input, textarea {
+  outline: none;
+  border: none;
+}
+input::placeholder{
+  color: gray;
+  font-size: .24rem;
+}
+input:-ms-input-placeholder {
+  color: gray;
+  font-size: .24rem;
+}
+input::-moz-placeholder {
+  color: gray;
+  font-size: .24rem;
+}
+input::-webkit-input-placeholder {
+  color: gray;
+  font-size: .24rem;
+}
+em {
+  font-style: normal;
+}
+.grayColor {
+  color: #999;
+}
+.redColor {
+  color: #e10030;
+}
+.threePoint {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+/* 公共样式 */
+.dis-flex {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+.dis-flex-bt {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dis-flex-wrap {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+.swiper-container {
+  height: 2.14rem;
+}
+.swiper-slide {
+  height: 2.14rem;
+}
