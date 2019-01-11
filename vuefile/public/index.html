@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>IT职业教育培训_IT培训中心_IT在线教育-职坐标</title>
+    <script type="text/javascript" src="//player.youku.com/jsapi"></script>
+    <script src="http://iotek.b0.upaiyun.com/iotek-landing/public/jquery.min_1.8.2.js"></script>
+    <script src="http://static.zhizuobiao.com/js/qrcode.min.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but fontend doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<!-- <script>
+  window.onload = function () {
+    var player = new YKU.Player('youkuId',{
+    client_id: '01db692a170336cc',
+    vid: 'XMzgzNzE0MzA4NA==',
+    newPlayer: true
+  })
+  setInterval(function () {
+    console.log(player.currentTime())
+  }, 100)
+  console.log(player.currentTime())
+  }
+
+  window.addEventListener('message',function(e){
+    var data = e.data;
+    console.log(data.time)
+    switch (data.msg){
+      case "onPlayerStart":{
+
+        break;
+      }
+      case "onPlayEnd":{
+        // onPlayEnd();
+        break;
+      }
+      case 'onTimeUpdate':{
+        console.info(data.time)
+        break
+      }
+      case "state":{
+        //playing或pause
+        //console.info(data.stateParam);
+        var state = data.stateParam;
+        console.info(state);
+        break;
+      }
+    }
+  },false);
+</script> -->
